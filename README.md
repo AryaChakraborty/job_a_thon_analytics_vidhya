@@ -1,2 +1,3 @@
-# job_a_thon_analytics_vidhya
-model and description
+# Intuition
+
+First I used Logistic regression to create a benchmark score for reference of other models. Then I started tweaking with the features of the dataset. I dropped the ‘signup_date’ column at first then I realised that and then I used it by filling up the null values and then separating the dates, years and months. Then I filled up the ‘products_purchased’ column with zeroes and then trained models like Support Vector Machines, XGBoost and Random Forests. Then I found out that Random forest was performing the best out of them. The primary intention was to retain as much data from the given dataset.
